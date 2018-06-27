@@ -1,7 +1,7 @@
 %define api	1.0
 %define major	0
-%define libname	%mklibname libnumbertext %{api} %{major}
-%define devname	%mklibname -d libnumbertext
+%define libname	%mklibname numbertext %{api} %{major}
+%define devname	%mklibname -d numbertext
 
 Summary:	Library for converting numbers to text
 Name:		libnumbertext
