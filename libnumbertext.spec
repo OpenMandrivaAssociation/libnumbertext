@@ -5,13 +5,12 @@
 
 Summary:	Library for converting numbers to text
 Name:		libnumbertext
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://numbertext.github.io/
-Source0:	https://github.com/Numbertext/libnumbertext/releases/download/1.0.beta3/libnumbertext-%{version}.tar.xz
-
+Source0:	https://github.com/Numbertext/libnumbertext/releases/download/%(echo %{version} |cut -d. -f1-2)/libnumbertext-%{version}.tar.xz
 
 %description
 We provide easy to configure, lightweight open source C++, Java, JavaScript,
