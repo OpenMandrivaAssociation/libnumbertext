@@ -36,7 +36,8 @@ Requires:	%{libname} = %{EVRD}
 Includes and definitions for developing with libnumbertext
 
 %prep
-%autosetup -p1
+%setup -q
+%apply_patches
 
 %build
 %configure
