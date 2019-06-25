@@ -6,11 +6,11 @@
 Summary:	Library for converting numbers to text
 Name:		libnumbertext
 Version:	1.0.3
-Release:	2
+Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://numbertext.github.io/
-Source0:	https://github.com/Numbertext/libnumbertext/releases/download/%(echo %{version} |cut -d. -f1-2)/libnumbertext-%{version}.tar.xz
+Source0:	https://github.com/Numbertext/libnumbertext/archive/%{version}.tar.gz
 
 %description
 We provide easy to configure, lightweight open source C++, Java, JavaScript,
