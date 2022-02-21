@@ -5,7 +5,7 @@
 
 Summary:	Library for converting numbers to text
 Name:		libnumbertext
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
